@@ -32,4 +32,29 @@ Você irá encontrar essa: ![alt text](image-3.png)
 
 Ao encontrar, instale a extensão.
 
+# 2) Seu primeiro código em Java:
+Agora que já temos tudo instalado, crie um arquivo chamado "OlaDevVasco.java" e nele copie:
+```Java
+public class OlaDevVasco {
+    public static void main(String[] args){
+        System.out.println("KA-ME-HA-ME-HAAAAAAAAAAAAAAAAAAAAA");
+    }
+}
+```
+
+No terminal digite:
+```terminal
+javac OlaDevVasco.java
+```
+Isso vai gerar um arquivo chamado "OlaDevVasco.class". Esse é o arquivo que o computador entende
+
+E agora digite:
+```terminal
+java OlaDevVasco
+```
+
+No seu terminal aparecerá:
+
+![alt text](image-4.png)
+
 Agora sim, estamos prontos para o nosso estudo de Java. Acompanhe as próximas aulas e Bons estudos!!!
