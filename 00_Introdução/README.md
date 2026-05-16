@@ -1,5 +1,5 @@
 # Instalando o Java
-Olá, daremos início ao estudo da linguagem de programação Java. Nesta aula, vamos aprender a como instalar a linguagem e a melhor configuração possível (no Vscode) para conseguirmos trabalhar sem dor de cabeça. Bons estudos!!!
+Olá, daremos início ao estudo da linguagem de programação Java. Nesta aula, vamos aprender a como instalar a linguagem e a melhor configuração possível para conseguirmos trabalhar sem dor de cabeça. Bons estudos!!!
 
 # 1) Onde baixar?
 Acesse: https://adoptium.net/
