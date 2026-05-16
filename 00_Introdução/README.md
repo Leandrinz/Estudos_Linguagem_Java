@@ -38,10 +38,14 @@ Selecione seu sistema operacional (Windows, Linux ou macOS) e em seguida clique 
 
 O instalador será baixado: 
 
+
 ![img_2.png](img_2.png)
 
+
 Após isso, clique nele e você chegará até essa parte: 
+
 ![img_3.png](img_3.png)
+
 
 O que marcar:
 
