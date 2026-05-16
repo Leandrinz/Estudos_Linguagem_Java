@@ -37,7 +37,7 @@ Agora que já temos tudo instalado, crie um arquivo chamado "OlaDevVasco.java" e
 ```Java
 public class OlaDevVasco {
     public static void main(String[] args){
-        System.out.println("KA-ME-HA-ME-HAAAAAAAAAAAAAAAAAAAAA");
+        System.out.println("Teste KA-ME-HA-ME-HAAAAAAAAAAAAAAAAAAAAA");
     }
 }
 ```
