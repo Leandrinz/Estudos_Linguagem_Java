@@ -55,13 +55,48 @@ O que marcar:
 
 [X] Add "Open Folder as Project" (em Update Context Menu): Extremamente útil. Quando você tiver uma pasta com códigos no seu computador, basta clicar nela com o botão direito e escolher essa opção para abrir direto no IntelliJ.
 
-[X] .java e [X] .kt (em Create Associations): Faz com que arquivos isolados de Java e Kotlin abram direto no IntelliJ por padrão quando você der dois cliques neles. (Se for usar Gradle futuramente, pode marcar .gradle e .kts também).
+[X] .java e [X] .kt (em Create Associations): Faz com que arquivos isolados de Java e Kotlin abram direto no IntelliJ por padrão quando você der dois cliques neles.Marque .gradle e .kts também
 
 Depois de tudo isso, finalize clicando em "Install":
 
 ![img_4.png](img_4.png)
 
-# 3) Seu primeiro código em Java:
+
+# 3) Baixando o Gradle:
+Vamos baixar uma ferramenta que nos ajude a organizar nossos projetos
+
+Acesse: [Site_Oficial_Gradle](https://gradle.org/releases/)
+
+Você irá ver: ![img_1.png](img_1.png)
+
+- Agora siga esses passos:
+  - 1) Baixando e instalando o ZIP:
+      - Clique em "binary-only" e irá instalar o zip
+      - Crie uma pasta chamada "Gradle" no "C:", pra ficar "C:\Gradle"
+      - Extraia o conteúdo do ZIP para dentro dessa pasta. O caminho deve ficar algo como C:\Gradle\gradle-9.5.1
+  - 2) Configurando as variáveis de ambiente:
+      - 1) Pegando o caminho da pasta bin:
+            1) Dê um duplo clique na pasta gradle-9.5.1 
+            2) Lá dentro, você verá uma pasta chamada ```bin```. Entre nela.
+            3) Agora, clique na barra de endereços (lá no topo, onde está escrito ```Este Computador > Acer (C:) > Gradle...```
+            4) Copie esse endereço, o caminho deve ser algo como ```C:\Gradle\gradle-9.5.1\bin```
+      - 2) Configurando o Windows:
+            1) Aperte a tecla Windows no seu teclado e digite: ```Variáveis de Ambiente```
+            2) Clique em "Editar as variáveis de ambiente do sistema"
+            3) Na janelinha que abrir, clique no botão lá embaixo: Variáveis de Ambiente
+            4) Na parte de baixo (Variáveis do Sistema), procure na lista o nome Path e dê um duplo clique nele
+            5) Vai abrir uma lista de caminhos. CLique no botão "Novo" à direita
+            6) Cole o caminho que você copiou
+            7) Dê OK em todas as janelas
+      - 3) Teste final:
+            1) Abra o terminal e digite:
+            ```gradle -v```
+
+            Se aparecer algo como:![img_5.png](img_5.png)
+
+            Deu tudo certo, o Gradle está instalado!!!
+
+# 4) Seu primeiro código em Java:
 Agora que já temos tudo instalado, crie um arquivo chamado "OlaDevVasco.java" e nele copie:
 ```Java
 public class OlaDevVasco {
