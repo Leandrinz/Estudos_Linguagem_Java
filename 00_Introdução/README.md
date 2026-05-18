@@ -100,7 +100,7 @@ Você irá ver: ![img_1.png](img_1.png)
 Agora que já temos tudo instalado, crie um arquivo chamado "OlaDevVasco.java" e nele copie:
 ```Java
 public class OlaDevVasco {
-    public static void main(String[] args){
+    static void main(String[] args){
         System.out.println("Teste KA-ME-HA-ME-HAAAAAAAAAAAAAAAAAAAAA");
     }
 }
