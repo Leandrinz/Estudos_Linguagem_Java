@@ -42,3 +42,11 @@ int numero1 = 5;
 int numero2 = 4;
 int multiplicação = numero1 * numero2; // Valor da variável "Multiplicação" = 20
 ```
+
+#### 1.5) Resto de Divisão (%):
+Mostra o resto de uma divisão inteira
+
+Exemplo:
+```Java
+int resultado = 10 % 3; // Retorna 1 (o resto que sobrou)
+```
