@@ -1,7 +1,5 @@
 package academy.devdojo.maratonajava;
 
-import java.sql.SQLOutput;
-
 public class Aula04_Operadores {
     public static void main() {
         // ---- Aula 15 ----
@@ -26,6 +24,7 @@ public class Aula04_Operadores {
         int resto = 20 % 2;
         System.out.println(resto);
 
+
         // ---- Aula 16 (Operadores Relacionais) ----
 
         // Operadores relacionais: < > <= >= == !=
@@ -44,6 +43,19 @@ public class Aula04_Operadores {
 
         boolean isDezDiferenteVinte = 10 != 20;
         System.out.println(isDezDiferenteVinte);
+
+
+        // ---- Aula 17 (Operadores Lógicos) ----
+
+        // Operadores Lógicos: && (AND), || (OR), ! (NOT)
+
+        int idade = 35;
+        float salario = 3500F;
+        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario > 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+
+        System.out.println(isDentroDaLeiMaiorQueTrinta); // false
+        System.out.println(isDentroDaLeiMenorQueTrinta); // false
 
 
     }
