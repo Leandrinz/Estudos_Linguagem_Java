@@ -49,6 +49,7 @@ public class Aula04_Operadores {
 
         // Operadores Lógicos: && (AND), || (OR), ! (NOT)
 
+        // && (AND)
         int idade = 35;
         float salario = 3500F;
         boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario > 4612;
@@ -57,6 +58,12 @@ public class Aula04_Operadores {
         System.out.println(isDentroDaLeiMaiorQueTrinta); // false
         System.out.println(isDentroDaLeiMenorQueTrinta); // false
 
+        // || (OU)
+        double valorTotalContaCorrente = 200;
+        double valorTotalPoupanca = 10000;
+        float valorPlaystation = 5000F;
+        boolean isPlaystationCincoCompravel = valorTotalContaCorrente > valorPlaystation || valorTotalPoupanca > valorPlaystation;
+        System.out.println(isPlaystationCincoCompravel);
 
     }
 }
