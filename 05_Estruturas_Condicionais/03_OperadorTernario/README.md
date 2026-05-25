@@ -1,5 +1,5 @@
 # OPERADOR TERNÁRIO - JAVA
-No Java temos o operador ternário, e podemos utilizá-lo para atribuir 2 valores diferentes, dependendo se uma condição é verdadeira ou falsa
+No Java temos o operador ternário, identificado com o símbolo (?), e podemos utilizá-lo para atribuir 2 valores diferentes, dependendo se uma condição é verdadeira ou falsa
 
 ## Sintaxe:
 ```Java
