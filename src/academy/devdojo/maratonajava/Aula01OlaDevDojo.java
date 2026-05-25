@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava;
 
-public  class Aula01_OlaDevDojo {
+public  class Aula01OlaDevDojo {
     public static void main(String[] args) {
         System.out.println("KA-ME-HA-ME-HAAAA");
     }

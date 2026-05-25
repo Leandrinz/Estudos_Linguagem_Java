@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava;
 
-public class Aula03_TiposPrimitivos_Exercicio {
+public class Aula03TiposPrimitivos_Exercicio {
     public static void main() {
         String nome = "Leandro";
         String endereco = "Pau dos Ferros RN";

@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava;
 
-public class Aula02_TiposPrimitivos {
+public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
         // ---- AULA 10 ----
         // int, double, float, char, byte, short, long, boolean

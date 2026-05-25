@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava;
 
-public class Aula04_Operadores {
+public class Aula04Operadores {
     public static void main() {
         // ---- Aula 15 ----
         // Operadores aritméticos: + - / * %

@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava;
 
-public class Aula05_EstruturasCondicionais {
+public class Aula05EstruturasCondicionais01 {
     public static void main(String[] args) {
         // ---- Aula 20 (IF) ----
         if (true){
