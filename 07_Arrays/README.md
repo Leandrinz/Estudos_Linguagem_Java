@@ -1,7 +1,7 @@
 # Arrays - Java
 Array é uma estrutura de dados que armazena vários elementos do mesmo tipo em posições indexadas e de tamanho fixo.
 
-A seguir, veja como funciona, sintaxe e como utilizar
+A seguir veja como funciona a sintaxe e como utilizar
 
 ## Declaração/Sintaxe:
 ```Java
