@@ -22,3 +22,14 @@ Temos mais ou menos isso:
 
 ![Exemplo](./Print1.png)
 
+Criamos 2 espaços com índices que vão de 0 à 1, onde cada um desses espaços tem 2 blocos atribuídos a eles, onde esses blocos vão do índice 0 à 1.
+
+## Indexação/Acesso por índice:
+Para acessarmos um espaço diretamente fazemos:
+
+```Java
+dias[0][1] = 28;
+```
+
+O que mudou:
+
