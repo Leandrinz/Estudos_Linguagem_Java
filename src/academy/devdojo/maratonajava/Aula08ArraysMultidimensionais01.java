@@ -25,9 +25,19 @@ public class Aula08ArraysMultidimensionais01 {
 		dias[2][3] = 31; // Dezembro
 		int soma = 0;
 		for (int i = 0; i < dias.length; i++) { // dias.length pega o número de linhas
-			for (int j = 0; j < dias[0].length; j++) { // dias[0].length pega o número de colunas
+			for (int j = 0; j < dias[i].length; j++) { // dias[i].length pega o número de colunas
 				System.out.println("Mês - "+meses[soma]);
 				System.out.println("Dias - "+dias[i][j]);
+				System.out.println("");
+				soma++;
+			}
+		}
+		System.out.println("----------------------------");
+		soma = 0;
+		for(int [] arrBase: dias) {
+			for (int num: arrBase) {
+				System.out.println("Mês - "+meses[soma]);
+				System.out.println("Dias - "+num);
 				System.out.println("");
 				soma++;
 			}
