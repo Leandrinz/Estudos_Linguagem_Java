@@ -20,3 +20,5 @@ int[][] dias = new int[2][2];
 ```
 Temos mais ou menos isso:
 
+![Exemplo](./Print1.png)
+
