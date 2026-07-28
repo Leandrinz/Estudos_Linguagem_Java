@@ -66,28 +66,28 @@ for(int [] arrBase: dias){ // Criamos um array de referência chamada 'arrBase',
 ## Inicialização:
 Existem diversas formas de inicializarmos os arrays multidimensionais, aqui estão algumas maneiras:
 
-#### Iniciando com valores:
+### Iniciando com valores:
 Já colocamos os valores e consequentemente já dizemos o tamanho 
 
 ```Java
 int[][] arrayInt2 = {{1,2}, {1,2,3}, {1,2,3,4}};
 ```
 
-#### Iniciando com valores em cada posição:
+### Iniciando com valores em cada posição:
 ```Java
 arrayInt[0] = new int[] {1,2};
 arrayInt[1] = new int[] {1,2,3};
 arrayInt[2] = new int[] {1,2,3,4,5,6};
 ```
 
-#### Usando um array pronto
+### Usando um array pronto
 Colocamos um array pronto em uma das posições do nosso array multidimensional
 ```Java
 int [] arraySub = {3,2,1};
 arrayInt[1] = arraySub;
 ```
 
-#### Sem iniciar os valores
+### Sem iniciar os valores
 ```Java
 arrayInt[0] = new int[2]; // A posição 0 faz referência a um array de 2 posições
 arrayInt[1] = new int[3]; // A posição 1 faz referência a um array de 3 posições
