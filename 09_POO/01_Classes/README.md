@@ -85,4 +85,78 @@ public class EstudanteTest01 {
 }
 
 ```
-Nesse arquivo já mudamos o cenário, agora utilizamos esse objeto e seus atributos 
+Nesse arquivo já mudamos o cenário, agora utilizamos esse objeto e seus atributos
+
+
+## Inicialização de Classes
+Considere esse código do **Estudante.java**:
+
+```Java
+package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio;
+
+public class Estudante {
+	public String nome = "Sukuna"; 
+	public int idade;
+	public char sexo;
+}
+
+```
+
+Note que no atributo `nome`, iniciamos com o nome "Sukuna". Isso significa que TODOS os objetos da classe Estudante terão o nome igual "Sukuna". 
+
+Podemos mudar isso atribuindo outro valor na hora da execução do arquivo de teste (como você viu no arquivo **EstudanteTest01.java**). Basta criarmos nosso objeto e logo após atribuir outro valor no atributo `nome`
+
+
+Exemplo:
+
+```Java
+package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.test;
+
+import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio.Estudante;
+
+public class EstudanteTest02 {
+	public static void main(String[] args) {
+		Estudante estudante = new Estudante();
+		
+		estudante.nome = "Gojo"; // -> Atribuímos o nome "Gojo" onde antes era "Sukuna"
+		estudante.idade = 29;
+		estudante.sexo = 'M';
+		
+		System.out.println(estudante.nome);
+		System.out.println(estudante.idade);
+		System.out.println(estudante.sexo);
+	}
+}
+```
+
+Saída no terminal:
+
+```terminal
+Gojo
+29
+M
+```
+
+Porém como dito anteriormente, caso você não mude o atributo, o valor será o predefinido na inicialização
+
+Exemplo:
+
+```Java
+package academy.devdojo.maratonajava.javacore.Aintroducaoclasses.test;
+
+import academy.devdojo.maratonajava.javacore.Aintroducaoclasses.dominio.Estudante;
+
+public class EstudanteTest02 {
+	public static void main(String[] args) {
+		Estudante estudante = new Estudante();
+		System.out.println(estudante.nome); // Não mudamos nada, apenas pedimos para printar o que já está inicializado
+	}
+}
+
+```
+
+Saída no terminal:
+
+```terminal
+Sukuna
+```
