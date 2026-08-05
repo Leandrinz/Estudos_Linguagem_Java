@@ -18,11 +18,10 @@ public class CarrosTest01 {
 		carro2.modelo = "Opala Comodoro SL/E";
 		carro2.ano = 1988;
 		
+		
 		System.out.println("Nome:" + carro1.nome + " Modelo:"+ carro1.modelo + " Ano:" + carro1.ano);
 		
 		System.out.println("Nome:" + carro2.nome + " modelo:"+ carro2.modelo + " Ano:" + carro2.ano);
-		
-
 	}
 
 }
