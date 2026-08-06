@@ -10,4 +10,7 @@ public class Calculadora {
 		System.out.println(20-10);
 	}
 	
+	public void multiplicaDoisNumeros(int a, int b) {
+		System.out.println(a * b);
+	}
 }
